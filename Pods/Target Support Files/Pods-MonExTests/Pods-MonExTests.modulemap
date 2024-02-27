@@ -1,6 +1,0 @@
-framework module Pods_MonExTests {
-  umbrella header "Pods-MonExTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
