@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6240762B8EAC8100B93C06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A6240752B8EAC8000B93C06 /* GoogleService-Info.plist */; };
+		0AB1368D2B8E9A2F0077B993 /* MonExApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB1368C2B8E9A2F0077B993 /* MonExApp.swift */; };
+		0AB1368F2B8E9A2F0077B993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB1368E2B8E9A2F0077B993 /* ContentView.swift */; };
+		0AB136912B8E9A320077B993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB136902B8E9A320077B993 /* Assets.xcassets */; };
+		0AB136942B8E9A320077B993 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB136932B8E9A320077B993 /* Preview Assets.xcassets */; };
+		0AB1369E2B8E9A330077B993 /* MonExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB1369D2B8E9A330077B993 /* MonExTests.swift */; };
+		0AB136A82B8E9A330077B993 /* MonExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB136A72B8E9A330077B993 /* MonExUITests.swift */; };
+		0AB136AA2B8E9A330077B993 /* MonExUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB136A92B8E9A330077B993 /* MonExUITestsLaunchTests.swift */; };
+		3A77D801685CCE5E4277A226 /* Pods_MonEx_MonExUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9258F5C27EB6E9B7267153 /* Pods_MonEx_MonExUITests.framework */; };
+		560780C48A762CB3016F7A3F /* Pods_MonEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8398D685E340A0EAD11B1A9 /* Pods_MonEx.framework */; };
+		8ADEBB3F0BB8CE043EFC3BDF /* Pods_MonExTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F14EB70F33A9B34F487A73 /* Pods_MonExTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AB1369A2B8E9A330077B993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB136812B8E9A2F0077B993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB136882B8E9A2F0077B993;
+			remoteInfo = MonEx;
+		};
+		0AB136A42B8E9A330077B993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB136812B8E9A2F0077B993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB136882B8E9A2F0077B993;
+			remoteInfo = MonEx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F14EB70F33A9B34F487A73 /* Pods_MonExTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonExTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6240752B8EAC8000B93C06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0AB136892B8E9A2F0077B993 /* MonEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB1368C2B8E9A2F0077B993 /* MonExApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonExApp.swift; sourceTree = "<group>"; };
+		0AB1368E2B8E9A2F0077B993 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AB136902B8E9A320077B993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AB136932B8E9A320077B993 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AB136992B8E9A330077B993 /* MonExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB1369D2B8E9A330077B993 /* MonExTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonExTests.swift; sourceTree = "<group>"; };
+		0AB136A32B8E9A330077B993 /* MonExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB136A72B8E9A330077B993 /* MonExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonExUITests.swift; sourceTree = "<group>"; };
+		0AB136A92B8E9A330077B993 /* MonExUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonExUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F0FCE43E640FEDA57DC8F1F /* Pods-MonEx-MonExUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonEx-MonExUITests.debug.xcconfig"; path = "Target Support Files/Pods-MonEx-MonExUITests/Pods-MonEx-MonExUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4533245D003A557DBD30B37E /* Pods-MonExTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonExTests.release.xcconfig"; path = "Target Support Files/Pods-MonExTests/Pods-MonExTests.release.xcconfig"; sourceTree = "<group>"; };
+		57468DB65EFEF1E4615294AD /* Pods-MonExTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonExTests.debug.xcconfig"; path = "Target Support Files/Pods-MonExTests/Pods-MonExTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C36285231726824A9252B04D /* Pods-MonEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonEx.release.xcconfig"; path = "Target Support Files/Pods-MonEx/Pods-MonEx.release.xcconfig"; sourceTree = "<group>"; };
+		CA9258F5C27EB6E9B7267153 /* Pods_MonEx_MonExUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonEx_MonExUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67B19140043C4A7969F3D5B /* Pods-MonEx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonEx.debug.xcconfig"; path = "Target Support Files/Pods-MonEx/Pods-MonEx.debug.xcconfig"; sourceTree = "<group>"; };
+		D8398D685E340A0EAD11B1A9 /* Pods_MonEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED296168F6077205D8761BFA /* Pods-MonEx-MonExUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonEx-MonExUITests.release.xcconfig"; path = "Target Support Files/Pods-MonEx-MonExUITests/Pods-MonEx-MonExUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AB136862B8E9A2F0077B993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560780C48A762CB3016F7A3F /* Pods_MonEx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB136962B8E9A330077B993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADEBB3F0BB8CE043EFC3BDF /* Pods_MonExTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB136A02B8E9A330077B993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A77D801685CCE5E4277A226 /* Pods_MonEx_MonExUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB136802B8E9A2F0077B993 = {
+			isa = PBXGroup;
+			children = (
+				0AB1368B2B8E9A2F0077B993 /* MonEx */,
+				0AB1369C2B8E9A330077B993 /* MonExTests */,
+				0AB136A62B8E9A330077B993 /* MonExUITests */,
+				0AB1368A2B8E9A2F0077B993 /* Products */,
+				6E861DDD189E6F9C505AE905 /* Pods */,
+				D6717B72EE97205499C01560 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0AB1368A2B8E9A2F0077B993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AB136892B8E9A2F0077B993 /* MonEx.app */,
+				0AB136992B8E9A330077B993 /* MonExTests.xctest */,
+				0AB136A32B8E9A330077B993 /* MonExUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AB1368B2B8E9A2F0077B993 /* MonEx */ = {
+			isa = PBXGroup;
+			children = (
+				0AB1368C2B8E9A2F0077B993 /* MonExApp.swift */,
+				0AB1368E2B8E9A2F0077B993 /* ContentView.swift */,
+				0AB136902B8E9A320077B993 /* Assets.xcassets */,
+				0A6240752B8EAC8000B93C06 /* GoogleService-Info.plist */,
+				0AB136922B8E9A320077B993 /* Preview Content */,
+			);
+			path = MonEx;
+			sourceTree = "<group>";
+		};
+		0AB136922B8E9A320077B993 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0AB136932B8E9A320077B993 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AB1369C2B8E9A330077B993 /* MonExTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AB1369D2B8E9A330077B993 /* MonExTests.swift */,
+			);
+			path = MonExTests;
+			sourceTree = "<group>";
+		};
+		0AB136A62B8E9A330077B993 /* MonExUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AB136A72B8E9A330077B993 /* MonExUITests.swift */,
+				0AB136A92B8E9A330077B993 /* MonExUITestsLaunchTests.swift */,
+			);
+			path = MonExUITests;
+			sourceTree = "<group>";
+		};
+		6E861DDD189E6F9C505AE905 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D67B19140043C4A7969F3D5B /* Pods-MonEx.debug.xcconfig */,
+				C36285231726824A9252B04D /* Pods-MonEx.release.xcconfig */,
+				0F0FCE43E640FEDA57DC8F1F /* Pods-MonEx-MonExUITests.debug.xcconfig */,
+				ED296168F6077205D8761BFA /* Pods-MonEx-MonExUITests.release.xcconfig */,
+				57468DB65EFEF1E4615294AD /* Pods-MonExTests.debug.xcconfig */,
+				4533245D003A557DBD30B37E /* Pods-MonExTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6717B72EE97205499C01560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8398D685E340A0EAD11B1A9 /* Pods_MonEx.framework */,
+				CA9258F5C27EB6E9B7267153 /* Pods_MonEx_MonExUITests.framework */,
+				06F14EB70F33A9B34F487A73 /* Pods_MonExTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AB136882B8E9A2F0077B993 /* MonEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB136AD2B8E9A330077B993 /* Build configuration list for PBXNativeTarget "MonEx" */;
+			buildPhases = (
+				BF98FBBF1E338FBEE14CC8CD /* [CP] Check Pods Manifest.lock */,
+				0AB136852B8E9A2F0077B993 /* Sources */,
+				0AB136862B8E9A2F0077B993 /* Frameworks */,
+				0AB136872B8E9A2F0077B993 /* Resources */,
+				6C8A0655CBE98236FF1D338C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonEx;
+			productName = MonEx;
+			productReference = 0AB136892B8E9A2F0077B993 /* MonEx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AB136982B8E9A330077B993 /* MonExTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB136B02B8E9A330077B993 /* Build configuration list for PBXNativeTarget "MonExTests" */;
+			buildPhases = (
+				752E272433E19058A6206F30 /* [CP] Check Pods Manifest.lock */,
+				0AB136952B8E9A330077B993 /* Sources */,
+				0AB136962B8E9A330077B993 /* Frameworks */,
+				0AB136972B8E9A330077B993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB1369B2B8E9A330077B993 /* PBXTargetDependency */,
+			);
+			name = MonExTests;
+			productName = MonExTests;
+			productReference = 0AB136992B8E9A330077B993 /* MonExTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AB136A22B8E9A330077B993 /* MonExUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB136B32B8E9A330077B993 /* Build configuration list for PBXNativeTarget "MonExUITests" */;
+			buildPhases = (
+				4A443C66CA411F5888A82028 /* [CP] Check Pods Manifest.lock */,
+				0AB1369F2B8E9A330077B993 /* Sources */,
+				0AB136A02B8E9A330077B993 /* Frameworks */,
+				0AB136A12B8E9A330077B993 /* Resources */,
+				7B5D3F45C84F5B920DBA59FB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB136A52B8E9A330077B993 /* PBXTargetDependency */,
+			);
+			name = MonExUITests;
+			productName = MonExUITests;
+			productReference = 0AB136A32B8E9A330077B993 /* MonExUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AB136812B8E9A2F0077B993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					0AB136882B8E9A2F0077B993 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					0AB136982B8E9A330077B993 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0AB136882B8E9A2F0077B993;
+					};
+					0AB136A22B8E9A330077B993 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0AB136882B8E9A2F0077B993;
+					};
+				};
+			};
+			buildConfigurationList = 0AB136842B8E9A2F0077B993 /* Build configuration list for PBXProject "MonEx" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AB136802B8E9A2F0077B993;
+			productRefGroup = 0AB1368A2B8E9A2F0077B993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AB136882B8E9A2F0077B993 /* MonEx */,
+				0AB136982B8E9A330077B993 /* MonExTests */,
+				0AB136A22B8E9A330077B993 /* MonExUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AB136872B8E9A2F0077B993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB136942B8E9A320077B993 /* Preview Assets.xcassets in Resources */,
+				0AB136912B8E9A320077B993 /* Assets.xcassets in Resources */,
+				0A6240762B8EAC8100B93C06 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB136972B8E9A330077B993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB136A12B8E9A330077B993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A443C66CA411F5888A82028 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonEx-MonExUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C8A0655CBE98236FF1D338C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonEx/Pods-MonEx-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonEx/Pods-MonEx-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MonEx/Pods-MonEx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		752E272433E19058A6206F30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonExTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B5D3F45C84F5B920DBA59FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonEx-MonExUITests/Pods-MonEx-MonExUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonEx-MonExUITests/Pods-MonEx-MonExUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MonEx-MonExUITests/Pods-MonEx-MonExUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF98FBBF1E338FBEE14CC8CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonEx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB136852B8E9A2F0077B993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB1368F2B8E9A2F0077B993 /* ContentView.swift in Sources */,
+				0AB1368D2B8E9A2F0077B993 /* MonExApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB136952B8E9A330077B993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB1369E2B8E9A330077B993 /* MonExTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB1369F2B8E9A330077B993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB136AA2B8E9A330077B993 /* MonExUITestsLaunchTests.swift in Sources */,
+				0AB136A82B8E9A330077B993 /* MonExUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AB1369B2B8E9A330077B993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB136882B8E9A2F0077B993 /* MonEx */;
+			targetProxy = 0AB1369A2B8E9A330077B993 /* PBXContainerItemProxy */;
+		};
+		0AB136A52B8E9A330077B993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB136882B8E9A2F0077B993 /* MonEx */;
+			targetProxy = 0AB136A42B8E9A330077B993 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AB136AB2B8E9A330077B993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AB136AC2B8E9A330077B993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AB136AE2B8E9A330077B993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67B19140043C4A7969F3D5B /* Pods-MonEx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonEx/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryam.MonEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AB136AF2B8E9A330077B993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36285231726824A9252B04D /* Pods-MonEx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonEx/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryam.MonEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AB136B12B8E9A330077B993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57468DB65EFEF1E4615294AD /* Pods-MonExTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryam.MonExTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonEx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonEx";
+			};
+			name = Debug;
+		};
+		0AB136B22B8E9A330077B993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4533245D003A557DBD30B37E /* Pods-MonExTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryam.MonExTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonEx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonEx";
+			};
+			name = Release;
+		};
+		0AB136B42B8E9A330077B993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F0FCE43E640FEDA57DC8F1F /* Pods-MonEx-MonExUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryam.MonExUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonEx;
+			};
+			name = Debug;
+		};
+		0AB136B52B8E9A330077B993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED296168F6077205D8761BFA /* Pods-MonEx-MonExUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryam.MonExUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonEx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB136842B8E9A2F0077B993 /* Build configuration list for PBXProject "MonEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB136AB2B8E9A330077B993 /* Debug */,
+				0AB136AC2B8E9A330077B993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB136AD2B8E9A330077B993 /* Build configuration list for PBXNativeTarget "MonEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB136AE2B8E9A330077B993 /* Debug */,
+				0AB136AF2B8E9A330077B993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB136B02B8E9A330077B993 /* Build configuration list for PBXNativeTarget "MonExTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB136B12B8E9A330077B993 /* Debug */,
+				0AB136B22B8E9A330077B993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB136B32B8E9A330077B993 /* Build configuration list for PBXNativeTarget "MonExUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB136B42B8E9A330077B993 /* Debug */,
+				0AB136B52B8E9A330077B993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AB136812B8E9A2F0077B993 /* Project object */;
+}
