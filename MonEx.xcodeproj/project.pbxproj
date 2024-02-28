@@ -15,6 +15,9 @@
 		0AB1369E2B8E9A330077B993 /* MonExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB1369D2B8E9A330077B993 /* MonExTests.swift */; };
 		0AB136A82B8E9A330077B993 /* MonExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB136A72B8E9A330077B993 /* MonExUITests.swift */; };
 		0AB136AA2B8E9A330077B993 /* MonExUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB136A92B8E9A330077B993 /* MonExUITestsLaunchTests.swift */; };
+		3A77D801685CCE5E4277A226 /* Pods_MonEx_MonExUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9258F5C27EB6E9B7267153 /* Pods_MonEx_MonExUITests.framework */; };
+		560780C48A762CB3016F7A3F /* Pods_MonEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8398D685E340A0EAD11B1A9 /* Pods_MonEx.framework */; };
+		8ADEBB3F0BB8CE043EFC3BDF /* Pods_MonExTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F14EB70F33A9B34F487A73 /* Pods_MonExTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06F14EB70F33A9B34F487A73 /* Pods_MonExTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonExTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6240752B8EAC8000B93C06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0AB136892B8E9A2F0077B993 /* MonEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB1368C2B8E9A2F0077B993 /* MonExApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonExApp.swift; sourceTree = "<group>"; };
@@ -46,6 +50,14 @@
 		0AB136A32B8E9A330077B993 /* MonExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB136A72B8E9A330077B993 /* MonExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonExUITests.swift; sourceTree = "<group>"; };
 		0AB136A92B8E9A330077B993 /* MonExUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonExUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F0FCE43E640FEDA57DC8F1F /* Pods-MonEx-MonExUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonEx-MonExUITests.debug.xcconfig"; path = "Target Support Files/Pods-MonEx-MonExUITests/Pods-MonEx-MonExUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4533245D003A557DBD30B37E /* Pods-MonExTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonExTests.release.xcconfig"; path = "Target Support Files/Pods-MonExTests/Pods-MonExTests.release.xcconfig"; sourceTree = "<group>"; };
+		57468DB65EFEF1E4615294AD /* Pods-MonExTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonExTests.debug.xcconfig"; path = "Target Support Files/Pods-MonExTests/Pods-MonExTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C36285231726824A9252B04D /* Pods-MonEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonEx.release.xcconfig"; path = "Target Support Files/Pods-MonEx/Pods-MonEx.release.xcconfig"; sourceTree = "<group>"; };
+		CA9258F5C27EB6E9B7267153 /* Pods_MonEx_MonExUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonEx_MonExUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67B19140043C4A7969F3D5B /* Pods-MonEx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonEx.debug.xcconfig"; path = "Target Support Files/Pods-MonEx/Pods-MonEx.debug.xcconfig"; sourceTree = "<group>"; };
+		D8398D685E340A0EAD11B1A9 /* Pods_MonEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED296168F6077205D8761BFA /* Pods-MonEx-MonExUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonEx-MonExUITests.release.xcconfig"; path = "Target Support Files/Pods-MonEx-MonExUITests/Pods-MonEx-MonExUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560780C48A762CB3016F7A3F /* Pods_MonEx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ADEBB3F0BB8CE043EFC3BDF /* Pods_MonExTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A77D801685CCE5E4277A226 /* Pods_MonEx_MonExUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 				0AB136A62B8E9A330077B993 /* MonExUITests */,
 				0AB1368A2B8E9A2F0077B993 /* Products */,
 				6E861DDD189E6F9C505AE905 /* Pods */,
+				D6717B72EE97205499C01560 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,8 +150,24 @@
 		6E861DDD189E6F9C505AE905 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				D67B19140043C4A7969F3D5B /* Pods-MonEx.debug.xcconfig */,
+				C36285231726824A9252B04D /* Pods-MonEx.release.xcconfig */,
+				0F0FCE43E640FEDA57DC8F1F /* Pods-MonEx-MonExUITests.debug.xcconfig */,
+				ED296168F6077205D8761BFA /* Pods-MonEx-MonExUITests.release.xcconfig */,
+				57468DB65EFEF1E4615294AD /* Pods-MonExTests.debug.xcconfig */,
+				4533245D003A557DBD30B37E /* Pods-MonExTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6717B72EE97205499C01560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8398D685E340A0EAD11B1A9 /* Pods_MonEx.framework */,
+				CA9258F5C27EB6E9B7267153 /* Pods_MonEx_MonExUITests.framework */,
+				06F14EB70F33A9B34F487A73 /* Pods_MonExTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AB136AD2B8E9A330077B993 /* Build configuration list for PBXNativeTarget "MonEx" */;
 			buildPhases = (
+				BF98FBBF1E338FBEE14CC8CD /* [CP] Check Pods Manifest.lock */,
 				0AB136852B8E9A2F0077B993 /* Sources */,
 				0AB136862B8E9A2F0077B993 /* Frameworks */,
 				0AB136872B8E9A2F0077B993 /* Resources */,
+				6C8A0655CBE98236FF1D338C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AB136B02B8E9A330077B993 /* Build configuration list for PBXNativeTarget "MonExTests" */;
 			buildPhases = (
+				752E272433E19058A6206F30 /* [CP] Check Pods Manifest.lock */,
 				0AB136952B8E9A330077B993 /* Sources */,
 				0AB136962B8E9A330077B993 /* Frameworks */,
 				0AB136972B8E9A330077B993 /* Resources */,
@@ -180,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AB136B32B8E9A330077B993 /* Build configuration list for PBXNativeTarget "MonExUITests" */;
 			buildPhases = (
+				4A443C66CA411F5888A82028 /* [CP] Check Pods Manifest.lock */,
 				0AB1369F2B8E9A330077B993 /* Sources */,
 				0AB136A02B8E9A330077B993 /* Frameworks */,
 				0AB136A12B8E9A330077B993 /* Resources */,
+				7B5D3F45C84F5B920DBA59FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,6 +300,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A443C66CA411F5888A82028 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonEx-MonExUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C8A0655CBE98236FF1D338C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonEx/Pods-MonEx-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonEx/Pods-MonEx-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MonEx/Pods-MonEx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		752E272433E19058A6206F30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonExTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B5D3F45C84F5B920DBA59FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonEx-MonExUITests/Pods-MonEx-MonExUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonEx-MonExUITests/Pods-MonEx-MonExUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MonEx-MonExUITests/Pods-MonEx-MonExUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF98FBBF1E338FBEE14CC8CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonEx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0AB136852B8E9A2F0077B993 /* Sources */ = {
@@ -428,6 +568,7 @@
 		};
 		0AB136AE2B8E9A330077B993 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67B19140043C4A7969F3D5B /* Pods-MonEx.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +601,7 @@
 		};
 		0AB136AF2B8E9A330077B993 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36285231726824A9252B04D /* Pods-MonEx.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +634,7 @@
 		};
 		0AB136B12B8E9A330077B993 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57468DB65EFEF1E4615294AD /* Pods-MonExTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +655,7 @@
 		};
 		0AB136B22B8E9A330077B993 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4533245D003A557DBD30B37E /* Pods-MonExTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +676,7 @@
 		};
 		0AB136B42B8E9A330077B993 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F0FCE43E640FEDA57DC8F1F /* Pods-MonEx-MonExUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +695,7 @@
 		};
 		0AB136B52B8E9A330077B993 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED296168F6077205D8761BFA /* Pods-MonEx-MonExUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
