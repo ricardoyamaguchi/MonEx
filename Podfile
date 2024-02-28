@@ -8,6 +8,8 @@ target 'MonEx' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Database'
   pod 'GoogleSignInSwift'
+  pod 'SwiftLint'
+  pod 'SwiftFormat'
 
   # Pods for MonEx
 

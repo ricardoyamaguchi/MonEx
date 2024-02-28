@@ -88,6 +88,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A6240772B8EB4E800B93C06 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0A6240782B8EB4F200B93C06 /* Login */,
+				0A6240792B8EB4FB00B93C06 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0A6240782B8EB4F200B93C06 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0A6240792B8EB4FB00B93C06 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		0AB136802B8E9A2F0077B993 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +136,7 @@
 		0AB1368B2B8E9A2F0077B993 /* MonEx */ = {
 			isa = PBXGroup;
 			children = (
+				0A6240772B8EB4E800B93C06 /* Modules */,
 				0AB1368C2B8E9A2F0077B993 /* MonExApp.swift */,
 				0AB1368E2B8E9A2F0077B993 /* ContentView.swift */,
 				0AB136902B8E9A320077B993 /* Assets.xcassets */,
