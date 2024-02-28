@@ -9,7 +9,7 @@
 **/*.xcuserstate
 *.xcuserdata
 *.xcworkspace/*
-project.xcworkspace/
+**/project.xcworkspace/
 **/xcuserdata/*
 
 # Podfiles
