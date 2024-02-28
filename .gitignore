@@ -10,7 +10,7 @@
 *.xcuserdata
 *.xcworkspace/
 project.xcworkspace/
-*/xcuserdata/
+*/xcuserdata/*
 
 # Podfiles
 Pods/
