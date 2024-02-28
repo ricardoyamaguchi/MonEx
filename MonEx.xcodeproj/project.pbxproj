@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0A6240762B8EAC8100B93C06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A6240752B8EAC8000B93C06 /* GoogleService-Info.plist */; };
+		0A62408F2B8EBAE500B93C06 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A62408E2B8EBAE500B93C06 /* LoginView.swift */; };
+		0A6240952B8EBB4500B93C06 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6240942B8EBB4500B93C06 /* HomeView.swift */; };
 		0AB1368D2B8E9A2F0077B993 /* MonExApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB1368C2B8E9A2F0077B993 /* MonExApp.swift */; };
 		0AB1368F2B8E9A2F0077B993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB1368E2B8E9A2F0077B993 /* ContentView.swift */; };
 		0AB136912B8E9A320077B993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB136902B8E9A320077B993 /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		06F14EB70F33A9B34F487A73 /* Pods_MonExTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonExTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6240752B8EAC8000B93C06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A62408E2B8EBAE500B93C06 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0A6240942B8EBB4500B93C06 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0AB136892B8E9A2F0077B993 /* MonEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB1368C2B8E9A2F0077B993 /* MonExApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonExApp.swift; sourceTree = "<group>"; };
 		0AB1368E2B8E9A2F0077B993 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,27 +92,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A6240772B8EB4E800B93C06 /* Modules */ = {
+		0A6240892B8EBA2C00B93C06 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				0A6240782B8EB4F200B93C06 /* Login */,
-				0A6240792B8EB4FB00B93C06 /* Home */,
+				0A6240912B8EBB2100B93C06 /* Home */,
+				0A62408A2B8EBA3300B93C06 /* Login */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		0A6240782B8EB4F200B93C06 /* Login */ = {
+		0A62408A2B8EBA3300B93C06 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				0A6240902B8EBB0E00B93C06 /* Scenes */,
 			);
 			path = Login;
 			sourceTree = "<group>";
 		};
-		0A6240792B8EB4FB00B93C06 /* Home */ = {
+		0A62408B2B8EBA3B00B93C06 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0A62408E2B8EBAE500B93C06 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A6240902B8EBB0E00B93C06 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0A62408B2B8EBA3B00B93C06 /* Views */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0A6240912B8EBB2100B93C06 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0A6240922B8EBB2C00B93C06 /* Scenes */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		0A6240922B8EBB2C00B93C06 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0A6240932B8EBB3300B93C06 /* Views */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0A6240932B8EBB3300B93C06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A6240942B8EBB4500B93C06 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		0AB136802B8E9A2F0077B993 = {
@@ -136,7 +174,7 @@
 		0AB1368B2B8E9A2F0077B993 /* MonEx */ = {
 			isa = PBXGroup;
 			children = (
-				0A6240772B8EB4E800B93C06 /* Modules */,
+				0A6240892B8EBA2C00B93C06 /* Modules */,
 				0AB1368C2B8E9A2F0077B993 /* MonExApp.swift */,
 				0AB1368E2B8E9A2F0077B993 /* ContentView.swift */,
 				0AB136902B8E9A320077B993 /* Assets.xcassets */,
@@ -434,6 +472,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB1368F2B8E9A2F0077B993 /* ContentView.swift in Sources */,
+				0A6240952B8EBB4500B93C06 /* HomeView.swift in Sources */,
+				0A62408F2B8EBAE500B93C06 /* LoginView.swift in Sources */,
 				0AB1368D2B8E9A2F0077B993 /* MonExApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
